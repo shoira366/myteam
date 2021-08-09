@@ -1,0 +1,111 @@
+.section-3 {
+    background: #F67E7E;
+    padding-top: 76px;
+    padding-bottom: 76px;
+
+    background-image: url('../images/round-square.png');
+    background-repeat: no-repeat;
+    background-size: 200px 144px;
+    background-position: left top 100%;
+
+    & .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 48px;
+        color: #012F34;
+        margin-right: 260px;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #012F34;
+        border: 2px solid #012F34;
+        box-sizing: border-box;
+        border-radius: 24px;
+        padding: 10px 32px;
+    }
+
+    &__link:active {
+        color: #fff;
+        background: #012F34;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .section-3 {
+        padding-top: 76px;
+        padding-bottom: 76px;
+
+        background-image: url('../images/round-square.png');
+        background-repeat: no-repeat;
+        background-size: 200px 144px;
+        background-position: left bottom -37%;
+
+        &__title {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 32px;
+            color: #012F34;
+            width: 336px;
+            margin-right: 80px;
+        }
+    }
+}
+
+@media screen and (max-width:375px) {
+    .section-3 {
+        padding-top: 83px;
+        padding-bottom: 83px;
+
+        background-image: url('../images/round-square.png');
+        background-repeat: no-repeat;
+        background-size: 200px 144px;
+        background-position: left bottom -13%;
+
+        & .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__title {
+            width: 327px;
+            margin: 0;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+// @media screen and (max-width:375px) {
+//     .section-3 {
+//         padding-top: 83px;
+//         padding-bottom: 83px;
+
+//         & .container {
+//             display: flex;
+//             flex-direction: column;
+//             align-items: center;
+//             justify-content: center;
+//         }
+
+//         &__title {
+//             text-align: center;
+//             width: 327px;
+//             margin-bottom: 24px;
+//             margin-right: 0;
+//         }
+//     }
+// }
