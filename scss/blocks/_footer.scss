@@ -130,6 +130,14 @@ svg:active path {
     }
 }
 
+@media screen and (max-width:690px) {
+    .footer{
+        &__menu{
+            margin-right: 213px;
+        }
+    }
+}
+
 @media screen and (max-width:375px) {
     .footer {
         padding-top: 66px;

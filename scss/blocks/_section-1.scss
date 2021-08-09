@@ -102,6 +102,17 @@
     margin-right: 23px;
 }
 
+
+@media screen and (max-width:922px) {
+    .section-1{
+        &__list{
+            &--text{
+                width: 334px;
+            }
+        }
+    }
+}
+
 @media screen and (max-width:768px) {
     .section-1 {
         padding-top: 100px;
@@ -119,7 +130,8 @@
 
         &__line {
             display: block;
-            margin-left: 107px;
+            margin-left: 58px;
+
         }
 
         &__title {
@@ -129,6 +141,31 @@
             line-height: 32px;
             color: #FFFFFF;
             margin-bottom: 64px;
+            margin-left: -100px;
+        }
+        &__list{
+            margin: 0;
+            &--text{
+                width: 478px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:604px) {
+    .section-1{
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__title{
+            width: 370px;
+        }
+        &__list{
+            &--text{
+                width: 400px;
+            }
         }
     }
 }
@@ -216,45 +253,3 @@
     }
 }
 
-// @media screen and (max-width:375px) {
-//     .section-1 {
-//         &__wrapper {
-//             display: flex;
-//             flex-direction: column;
-//         }
-
-//         &__line {
-//             margin-left: 0;
-//         }
-
-//         &__title {
-//             font-style: normal;
-//             font-weight: bold;
-//             font-size: 32px;
-//             line-height: 32px;
-//             color: #FFFFFF;
-//             margin-bottom: 64px;
-//             width: 240px;
-//             margin-left: -60px;
-//         }
-
-//         &__list {
-//             &--item {
-//                 display: flex;
-//                 flex-direction: column;
-//                 align-items: center;
-//                 justify-content: center;
-//             }
-
-//             &--title {
-//                 text-align: center;
-//                 margin-top: 16px;
-//             }
-
-//             &--text {
-//                 text-align: center;
-//                 width: 327px;
-//             }
-//         }
-//     }
-// }

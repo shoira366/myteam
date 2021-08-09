@@ -125,10 +125,69 @@
     }
 }
 
+@media screen and (max-width:1180px) {
+    .header {
+        &__list {
+            margin-right: 434px;
+        }
+    }
+}
+
+@media screen and (max-width:1044px) {
+    .header {
+        &__list {
+            margin-right: 234px;
+        }
+    }
+}
+
+@media screen and (max-width:922px) {
+    .header {
+        &__list{
+            margin-right: 184px;
+        }
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__line{
+            display: none;
+        }
+        &__title {
+            font-size: 70px;
+            line-height: 70px;
+            margin-right: 0;
+            text-align: center;
+        }
+        &__text{
+            margin-top: 20px;
+            width: 496px;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width:784px) {
+    .header{
+        &__list{
+            margin-right: 134px;
+        }
+    }
+}
+
+// @media screen  and (max-width:1178px){
+//     .header{
+//         &__list{
+//             margin-top: 533px;
+//         }
+//     }
+// }
+
 @media screen and (max-width:768px) {
     .header {
         padding-top: 64px;
-        padding-bottom: 256px;
+        padding-bottom: 156px;
         background-image: url('../images/dubleround.png');
         background-size: 358px 100px;
         background-position: center top 100%;
@@ -171,15 +230,33 @@
 
         &__text {
             text-align: center;
-            width: 545px;
+            width: 474px;
             font-style: normal;
             font-weight: 600;
             font-size: 15px;
             line-height: 28px;
             color: #FFFFFF;
+            margin-top: 0;
         }
     }
 }
+
+@media screen and (max-width:690px) {
+    .header{
+          &__list{
+              margin-right: 66px;
+          }
+    }
+}
+
+@media screen and (max-width:604px) {
+    .header{
+        &__contact{
+            display: none;
+        }
+    }
+}
+
 
 @media screen and (max-width:375px) {
     .header {
@@ -232,4 +309,3 @@
         }
     }
 }
-
