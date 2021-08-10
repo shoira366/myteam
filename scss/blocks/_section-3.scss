@@ -43,24 +43,24 @@
 }
 
 @media screen and (max-width:1046px) {
-    .section-3{
-        &__title{
+    .section-3 {
+        &__title {
             margin-right: 110px;
         }
     }
 }
 
 @media screen and (max-width:922px) {
-    .section-3{
-        &__title{
+    .section-3 {
+        &__title {
             margin-right: 60px;
         }
     }
 }
 
 @media screen and (max-width:784px) {
-    .section-3{
-        &__title{
+    .section-3 {
+        &__title {
             margin-right: 10px;
         }
     }
@@ -89,9 +89,18 @@
 }
 
 @media screen and (max-width:690px) {
-    .section-3{
-        &__title{
+    .section-3 {
+        &__title {
             margin-right: 78px;
+        }
+    }
+}
+
+@media screen and (max-width:573px) {
+    .section-3 {
+        &__title {
+            margin-right: 58px;
+            width: 200px;
         }
     }
 }
@@ -119,4 +128,3 @@
         }
     }
 }
-

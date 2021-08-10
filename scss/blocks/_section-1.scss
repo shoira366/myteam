@@ -170,6 +170,36 @@
     }
 }
 
+@media screen and (max-width:573px) {
+    .section-1{
+        &__line{
+            display: none;
+        } 
+        &__title{
+            text-align: center;
+        }
+        &__list{
+            &--text{
+                width: 327px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:504px) {
+    .section-1{
+        &__title{
+            text-align:center;
+            margin-left: 0;
+        }
+        &__list{
+            &--text{
+                width: 324px;
+            }
+        }
+    }
+}
+
 @media screen and (max-width:375px) {
     .section-1 {
         padding-top: 64px;
@@ -178,6 +208,7 @@
         &__line {
             margin: 0;
             margin-bottom: 32px;
+            display: block;
         }
 
         &__title {
@@ -188,6 +219,7 @@
             color: #FFFFFF;
             width: 240px;
             margin-left: -60px;
+            text-align: left;
         }
 
         &__list {

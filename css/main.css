@@ -59,6 +59,18 @@ body {
   }
 }
 
+@media screen and (max-width: 573px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  .container {
+    width: 400px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .container {
     width: 327px;
@@ -491,6 +503,28 @@ body {
   }
 }
 
+@media screen and (max-width: 573px) {
+  .section-1__line {
+    display: none;
+  }
+  .section-1__title {
+    text-align: center;
+  }
+  .section-1__list--text {
+    width: 327px;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  .section-1__title {
+    text-align: center;
+    margin-left: 0;
+  }
+  .section-1__list--text {
+    width: 324px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .section-1 {
     padding-top: 64px;
@@ -499,6 +533,7 @@ body {
   .section-1__line {
     margin: 0;
     margin-bottom: 32px;
+    display: block;
   }
   .section-1__title {
     font-style: normal;
@@ -508,6 +543,7 @@ body {
     color: #FFFFFF;
     width: 240px;
     margin-left: -60px;
+    text-align: left;
   }
   .section-1__list {
     margin: 0;
@@ -739,6 +775,18 @@ body {
   }
 }
 
+@media screen and (max-width: 573px) {
+  .section-2__menu--team {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  .section-2__title {
+    width: 400px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .section-2 {
     padding-top: 140px;
@@ -836,6 +884,13 @@ body {
 @media screen and (max-width: 690px) {
   .section-3__title {
     margin-right: 78px;
+  }
+}
+
+@media screen and (max-width: 573px) {
+  .section-3__title {
+    margin-right: 58px;
+    width: 200px;
   }
 }
 
@@ -993,6 +1048,27 @@ svg:active path {
   }
 }
 
+@media screen and (max-width: 573px) {
+  .footer__menu {
+    margin-right: 116px;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  .footer-div {
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer__menu {
+    margin-right: 65px;
+  }
+  .footer__text {
+    width: 200px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .footer {
     padding-top: 66px;
@@ -1027,6 +1103,7 @@ svg:active path {
     margin: 0;
   }
   .footer__text {
+    width: 253px;
     margin: 0;
     margin-top: 16px;
     margin-bottom: 64px;
