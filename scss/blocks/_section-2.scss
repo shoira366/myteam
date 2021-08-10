@@ -135,7 +135,7 @@
 @media screen and (max-width:922px) {
     .section-2{
         &__title{
-            width: 900px;
+            width: 790px;
         }
         &__menu{
             &--team{
@@ -204,7 +204,7 @@
     .section-2{
         &__menu{
             &--team{
-                width: 450px;
+                width: 410px;
             }
         }
     }
@@ -218,11 +218,14 @@
     }
 }
 
+@media screen and (max-width:417px) {
+    
+}
+
 @media screen and (max-width:375px) {
     .section-2 {
         padding-top: 140px;
         padding-bottom: 164px;
-
         &__title {
             width: 327px;
         }

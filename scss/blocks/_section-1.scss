@@ -200,6 +200,91 @@
     }
 }
 
+@media screen and (max-width:417px) {
+    .section-1 {
+        padding-top: 64px;
+        padding-bottom: 64px;
+
+        &__line {
+            margin: 0;
+            margin-bottom: 32px;
+            display: block;
+        }
+
+        &__title {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 32px;
+            color: #FFFFFF;
+            width: 240px;
+            margin-left: -60px;
+            text-align: left;
+        }
+
+        &__list {
+            margin: 0;
+            &--item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            &--title {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 28px;
+                text-align: center;
+                color: #F67E7E;
+                margin-bottom: 8px;
+            }
+
+            &--text {
+                text-align: center;
+                width: 327px;
+            }
+        }
+    }
+
+    .first::before {
+        content: "";
+        width: 72px;
+        height: 72px;
+        display: inline-block;
+
+        background-image: url('../images/man.svg');
+        background-repeat: no-repeat;
+        background-size: 72px 72px;
+        margin-bottom: 16px;
+    }
+
+    .second::before {
+        content: "";
+        width: 72px;
+        height: 72px;
+        display: inline-block;
+
+        background-image: url('../images/settings.svg');
+        background-repeat: no-repeat;
+        background-size: 72px 72px;
+        margin-bottom: 16px;
+    }
+
+    .third::before {
+        content: "";
+        width: 72px;
+        height: 72px;
+        display: inline-block;
+
+        background-image: url('../images/timetable.svg');
+        background-repeat: no-repeat;
+        background-size: 72px 72px;
+        margin-bottom: 16px;
+    }
+}
+
 @media screen and (max-width:375px) {
     .section-1 {
         padding-top: 64px;
