@@ -33,7 +33,7 @@
             color: #FFFFFF;
         }
 
-        &--link:active {
+        &--link:hover {
             color: #F67E7E;
         }
     }
@@ -86,7 +86,7 @@
     }
 }
 
-svg:active path {
+svg:hover path {
     fill: #F67E7E;
 }
 
