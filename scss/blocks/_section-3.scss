@@ -12,6 +12,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        max-width: 100%;
     }
 
     &__title {
@@ -42,29 +43,29 @@
     }
 }
 
-@media screen and (max-width:1046px) {
-    .section-3 {
-        &__title {
-            margin-right: 110px;
-        }
-    }
-}
+// @media screen and (max-width:1046px) {
+//     .section-3 {
+//         &__title {
+//             margin-right: 110px;
+//         }
+//     }
+// }
 
-@media screen and (max-width:922px) {
-    .section-3 {
-        &__title {
-            margin-right: 60px;
-        }
-    }
-}
+// @media screen and (max-width:922px) {
+//     .section-3 {
+//         &__title {
+//             margin-right: 60px;
+//         }
+//     }
+// }
 
-@media screen and (max-width:784px) {
-    .section-3 {
-        &__title {
-            margin-right: 10px;
-        }
-    }
-}
+// @media screen and (max-width:784px) {
+//     .section-3 {
+//         &__title {
+//             margin-right: 10px;
+//         }
+//     }
+// }
 
 @media screen and (max-width:768px) {
     .section-3 {
@@ -88,48 +89,48 @@
     }
 }
 
-@media screen and (max-width:690px) {
-    .section-3 {
-        &__title {
-            margin-right: 78px;
-        }
-    }
-}
+// @media screen and (max-width:690px) {
+//     .section-3 {
+//         &__title {
+//             margin-right: 78px;
+//         }
+//     }
+// }
 
-@media screen and (max-width:573px) {
-    .section-3 {
-        &__title {
-            margin-right: 58px;
-            width: 200px;
-        }
-    }
-}
+// @media screen and (max-width:573px) {
+//     .section-3 {
+//         &__title {
+//             margin-right: 58px;
+//             width: 200px;
+//         }
+//     }
+// }
 
-@media screen and (max-width:417px) {
-    .section-3 {
-        padding-top: 83px;
-        padding-bottom: 83px;
+// @media screen and (max-width:417px) {
+//     .section-3 {
+//         padding-top: 83px;
+//         padding-bottom: 83px;
 
-        background-image: url('../images/round-square.png');
-        background-repeat: no-repeat;
-        background-size: 200px 144px;
-        background-position: left bottom -13%;
+//         background-image: url('../images/round-square.png');
+//         background-repeat: no-repeat;
+//         background-size: 200px 144px;
+//         background-position: left bottom -13%;
 
-        & .container {
-            display: flex;
-            flex-direction: column;
-        }
+//         & .container {
+//             display: flex;
+//             flex-direction: column;
+//         }
 
-        &__title {
-            width: 327px;
-            margin: 0;
-            text-align: center;
-            margin-bottom: 24px;
-        }
-    }
-}
+//         &__title {
+//             width: 327px;
+//             margin: 0;
+//             text-align: center;
+//             margin-bottom: 24px;
+//         }
+//     }
+// }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:500px) {
     .section-3 {
         padding-top: 83px;
         padding-bottom: 83px;
