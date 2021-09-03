@@ -165,7 +165,7 @@
     padding: 10px 32px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1106px) {
     .header-contact {
         padding-bottom: 112px;
         background-image: url('../images/round-3.png'), url('/images/round-square-2.png');
@@ -200,13 +200,19 @@
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:500px) {
     .header-contact {
         background-image: url('../images/quarter-round-square.png');
         background-repeat: no-repeat;
         background-size: 100px 100px;
         background-position: right bottom;
         padding-bottom: 88px;
+
+        & .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
         &__title {
             font-style: normal;
