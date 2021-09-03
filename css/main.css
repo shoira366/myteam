@@ -933,6 +933,7 @@ svg:hover path {
 }
 
 .about-header__text {
+  max-width: 100%;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -945,7 +946,7 @@ svg:hover path {
   margin-bottom: 120px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1106px) {
   .about-header {
     padding-top: 64px;
     padding-bottom: 112px;
@@ -977,7 +978,7 @@ svg:hover path {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
   .about-header {
     padding-top: 48px;
     padding-bottom: 108px;
@@ -1307,13 +1308,18 @@ svg:hover path {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
   .directions {
     padding-top: 88px;
     padding-bottom: 116px;
     background-image: url("../images/quarter-round-2.png"), url("../images/square.png");
     background-size: 100px 100px, 147px 100px;
     background-position: left top, right bottom;
+  }
+  .directions .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .directions__list {
     display: flex;
@@ -1425,7 +1431,7 @@ svg:hover path {
   margin-right: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1106px) {
   .clients {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -1467,7 +1473,7 @@ svg:hover path {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
   .clients {
     padding-top: 88px;
     padding-bottom: 0;
@@ -1479,6 +1485,8 @@ svg:hover path {
   .clients .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .clients__title {
     margin-bottom: 64px;
@@ -1489,8 +1497,10 @@ svg:hover path {
   }
   .clients__menu--item {
     margin: 0;
-    margin: 0 auto;
     margin-bottom: 57px;
+  }
+  .clients__menu--item:nth-child(2n) {
+    margin-right: 0;
   }
   .clients__menu--item:last-child {
     margin-left: 4px;

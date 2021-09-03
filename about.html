@@ -16,19 +16,20 @@
 <body>
     <header class="about-header">
         <div class="container">
-            <nav class="header__nav navbar">
+            <nav class="header__nav">
                 <a class="header__link" href="#">
                     <img src="./images/myteam-logo.svg" width="160" height="40" alt="logo">
                 </a>
-                <label for="x" class="header__label">
-                    <span class="header__bar fas fa-bars fa-2x"></span>
-                </label>
-                <input id="x" class="header__checkbox" type="checkbox">
+                <button id="bar" class="header__bar">
+                    <i style="color: #fff;" class="fas fa-bars fa-2x"></i>
+                </button>
+               <div class="menu__wrapper">
                 <ul class="header__list">
-                    <li class="header__list--item"><a class="header__list--link" href="index.html">home</a></li>
-                    <li class="header__list--item"><a class="header__list--link" href="#">about</a></li>
+                    <li class="header__list--item"><a class="header__list--link" href="#">home</a></li>
+                    <li class="header__list--item"><a class="header__list--link" href="about.html">about</a></li>
                 </ul>
                 <a class="header__contact" href="contact.html">contact us</a>
+               </div>
             </nav>
             <div class="about-header__wrapper">
                 <h2 class="about-header__title">About</h2>
@@ -216,6 +217,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

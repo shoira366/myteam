@@ -32,6 +32,7 @@
     }
 
     &__text {
+        max-width: 100%;
         font-style: normal;
         font-weight: 600;
         font-size: 18px;
@@ -45,7 +46,7 @@
     margin-bottom: 120px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1106px) {
     .about-header {
         padding-top: 64px;
         padding-bottom: 112px;
@@ -82,7 +83,7 @@
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:500px) {
     .about-header {
         padding-top: 48px;
         padding-bottom: 108px;

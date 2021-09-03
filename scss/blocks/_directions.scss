@@ -337,7 +337,7 @@
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:500px) {
     .directions {
         padding-top: 88px;
         padding-bottom: 116px;
@@ -345,6 +345,12 @@
         background-image: url('../images/quarter-round-2.png'), url('../images/square.png');
         background-size: 100px 100px, 147px 100px;
         background-position: left top, right bottom;
+
+        & .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
         &__list {
             display: flex;
